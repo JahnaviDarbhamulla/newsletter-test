@@ -1,0 +1,86 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #ffe0d8;
+}
+.error404{
+  background-color: white;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.img{
+  width:300px;
+  height: 300px;
+  position: relative;
+  right:10px;
+}
+.img1{
+  width:900px;
+  height: 620px;
+  position: relative;
+  right:280px;
+
+
+}
+.error{
+  width:400px;
+  height:500px;
+}
+.topic{
+  color: #16c79a;
+    font-size: 25px;
+    font-family: Amatic SC;
+
+
+
+}
+.topic1{
+  color: #ee9595;
+    font-size: 30px;
+    font-family: Amatic SC;
+
+
+}
+.success{
+  background-color: #0e1033;
+}
+@media (max-width:1262px){
+  .img1{
+
+  }
+}
